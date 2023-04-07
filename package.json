@@ -1,0 +1,26 @@
+{
+    "name": "node-red-mp3-r2",
+    "version": "0.1.0",
+    "description": "A Node-RED node to play mp3 files on a Raspberry Pi",
+    "main": "mp3-r2.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node-red",
+        "raspberry-pi",
+        "mp3"
+    ],
+    "node-red": {
+        "nodes": {
+            "mp3-r2": "mp3-r2.js"
+        }
+    },
+    "author": "Ricky Vaughn 2 (r2)",
+    "license": "GNU General Public License v3.0",
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RickyVaughn2/node-red-mp3-r2"
+    }
+}
